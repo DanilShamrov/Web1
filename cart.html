@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -23,28 +23,16 @@
         </div>
     </header>
     <main>
-        <div class="col" style="height: 100%; background-color: black;background-image: url('assets/index2.svg');background-position: center; background-repeat: no-repeat;">
-            <div class="col" style="min-height: 60vh;">
-                <div></div>
-                <div class="row" style="justify-content: space-around;">
-                    <h2 id="title1" class="headline" style="background-color: #fff8f4;">Ремонт и сервис авто</h2>
-                    <h2 id="title1" class="headline" style="background-color: #fff8f4;">Быстро, удобно, надежно</h2>
-                </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+        <div class="col" style="justify-content: center;">
+            <div class="row" style="justify-content: center;">
+                <div js="empty" class="headline"style="display:none; text-align: center; max-width: 300px;">Корзина пуста</div>
             </div>
-            <div>
-                <div>
-                    <h1 id="title">Автоцентр <br>«Планета Запчастей»</h1>
-                </div>
-                <div>
-                    
-                </div>
-            </div>
+        </div>
+        <div js="cart" class="serviceList">
+
         </div>
     </main>
     <footer></footer>
+    <script src="js/scriptCart.js"></script>
 </body>
 </html>

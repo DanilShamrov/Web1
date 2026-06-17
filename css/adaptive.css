@@ -1,0 +1,54 @@
+@media (max-width: 500px){
+
+    #title{
+        font-size: 36px;
+    }
+    #title1{
+        font-size: 16px;
+    }
+    .headerButton{
+        min-width: unset;
+    }
+    #headerRow{
+        flex-direction: column;
+    }
+    main{
+        min-height: 80vh;
+    }
+    .headline{
+        font-size: 24px;
+        min-width: none;
+    }
+    #map{
+        width: 90vw;
+    }
+    .contactsText{
+        font-size: 16px;
+    }
+    #menu{
+        display: grid;
+        grid-template: "a a a a"
+                       "a a a a"
+                       "a a a a";
+    }
+    #servicesRow{
+        flex-direction: column;
+        margin-left: 8px;
+    }
+    .menuItem{
+        font-size: 16px;
+        min-width: 80px;
+        margin-left: 0;
+    }
+    .serviceList{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageBlock{
+        display: none;
+    }
+    .about{
+        width: 100%;
+    }
+}
