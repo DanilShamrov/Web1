@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 1050px){
 
     #title{
         font-size: 36px;
@@ -6,11 +6,30 @@
     #title1{
         font-size: 16px;
     }
+    header, .space{height: 15vh;}
+    
     .headerButton{
         min-width: unset;
+        padding: 4px;
     }
     #headerRow{
-        flex-direction: column;
+        display: none;
+    }
+    #headerMobile{
+        display: grid;
+        grid-template: "a"
+                       "a";
+    }
+    #headerRow2{
+        display: grid;
+        grid-template: "a a a a"
+                       "a a a a";
+    }
+    .hideInMobile{
+        display: none;
+    }
+    .showInMobile{
+        display: block;
     }
     main{
         min-height: 80vh;
@@ -48,7 +67,8 @@
     .imageBlock{
         display: none;
     }
-    .about{
-        width: 100%;
+    #textTable{
+        grid-template: "a"
+                       "a";
     }
 }
